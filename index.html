@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mathieu Godalier — Développeur Full-Stack & Machine Learning</title>
+    <meta name="description" content="Portfolio de Mathieu Godalier, Développeur Full-Stack et élève ingénieur en Machine Learning à Holberton School." />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a href="index.html" class="nav-logo">Mathieu Godalier<span>.dev</span></a>
+        <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#about" class="is-active">À propos</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#resume">Mon CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO HEADER -->
+      <section class="hero">
+        <div class="hero-media">
+          <div class="hero-caption" style="position: relative; padding: 4rem 2rem; background: var(--bg-alt, #f5f5f5);">
+            <span class="eyebrow">Thonon-les-Bains · Holberton School · Python & C</span>
+            <h1>Développeur Full-Stack & Machine Learning</h1>
+            <p style="margin-top: 1rem; max-width: 600px;">
+              Passionné par la conception d'architectures logicielles solides, le traitement de données et le développement d'outils intelligents.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- TASK 1: ABOUT ME -->
+      <section id="about" class="section">
+        <div class="wrap intro-block">
+          <div class="section-head">
+            <h2>Task 1 : À Propos (About Me)</h2>
+            <span class="section-note">Parcours & Motivation</span>
+          </div>
+          <p>
+            Ancien spécialiste de la sécurité opérationnelle avec 15 ans d'expérience (Gendarmerie, Sécurité en Suisse pour l'OMS/RTS), j'ai entamé une reconversion passionnée vers le développement logiciel. 
+            Actuellement étudiant à <strong>Holberton School</strong> en spécialisation <strong>Machine Learning</strong>, je combine la rigueur et l'autonomie acquises sur le terrain avec une solide maîtrise de la programmation orientée objet (POO) et du bas niveau (C).
+          </p>
+          <p>
+            Mon objectif : concevoir des applications web robustes, optimiser l'accès aux bases de données et intégrer des modèles de Machine Learning et Traitement du Langage Naturel (NLU) pour résoudre des problématiques métiers réelles.
+          </p>
+          <p class="signature">— Mathieu Godalier</p>
+        </div>
+      </section>
+
+      <!-- TASK 2: PORTFOLIO / PROJECTS -->
+      <section id="projects" class="section" style="border-top: 1px solid var(--line);">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Task 2 : Portfolio & Projets</h2>
+            <span class="section-note">Réalisations</span>
+          </div>
+          <div class="categories">
+            
+            <article class="category-card" style="padding: 1.5rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
+              <span class="category-label" style="position: static; margin-bottom: 1rem;">
+                <span class="num">01</span>
+                <span class="name">Dashboard Pharma</span>
+              </span>
+              <p style="font-size: 0.9rem; margin-bottom: 1rem;">
+                Application web Full-Stack pour la gestion d'officine avec agent conversationnel IA (NLU spaCy) pour l'analyse d'interactions médicamenteuses.
+              </p>
+              <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--muted);">
+                Python · Flask · SQLAlchemy · JS Vanilla · NLU
+              </p>
+              <a href="https://github.com/mathieu7483/dashboard-pharma" target="_blank" style="display:inline-block; margin-top:1rem; font-weight:600;">Voir le projet →</a>
+            </article>
+
+            <article class="category-card" style="padding: 1.5rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
+              <span class="category-label" style="position: static; margin-bottom: 1rem;">
+                <span class="num">02</span>
+                <span class="name">Core Projects Holberton</span>
+              </span>
+              <p style="font-size: 0.9rem; margin-bottom: 1rem;">
+                Plus de 100 projets bas niveau et d'architecture : algorithmique avancée en C (listes chaînées, pointeurs), scripts Shell et POO Python.
+              </p>
+              <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--muted);">
+                C · Python (POO) · Linux/Bash · Git
+              </p>
+              <a href="https://github.com/Mathieu7483" target="_blank" style="display:inline-block; margin-top:1rem; font-weight:600;">Voir le profil GitHub →</a>
+            </article>
+
+            <article class="category-card" style="padding: 1.5rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
+              <span class="category-label" style="position: static; margin-bottom: 1rem;">
+                <span class="num">03</span>
+                <span class="name">Modélisation & Impression 3D</span>
+              </span>
+              <p style="font-size: 0.9rem; margin-bottom: 1rem;">
+                Conception CAO et fabrication additive de pièces sur-mesure (Anycubic Vyper).
+              </p>
+              <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--muted);">
+                3D CAD · Slicing · Hardware
+              </p>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- TASK 3: RESUME -->
+      <section id="resume" class="section" style="border-top: 1px solid var(--line);">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Task 3 : Mon CV (Resume)</h2>
+            <span class="section-note">Parcours professionnel</span>
+          </div>
+          <div style="margin-bottom: 2rem;">
+            <p style="margin-bottom: 1rem;">
+              Consultez mes compétences clés ou téléchargez mon CV complet au format PDF :
+            </p>
+            <a href="Mathieu GODALIER - Software engineer 2026 - Linkedin.pdf" target="_blank" class="btn" style="padding: 0.75rem 1.5rem; background: #000; color: #fff; text-decoration: none; border-radius: 4px; font-weight: 500;">
+              📄 Télécharger mon CV (PDF)
+            </a>
+          </div>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 2rem;">
+            <div>
+              <h3>Compétences Techniques</h3>
+              <ul style="list-style: none; padding: 0; line-height: 1.8;">
+                <li><strong>Langages :</strong> Python, C, JavaScript, SQL, Bash/Shell</li>
+                <li><strong>Backend & Web :</strong> Flask, SQLAlchemy ORM, REST APIs, HTML5/CSS3</li>
+                <li><strong>Data & IA :</strong> Pipelines Machine Learning, spaCy/NLTK (NLU), Pandas, NumPy</li>
+                <li><strong>Outils & OS :</strong> Git, Linux, SQLite, Docker (notions)</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Formation</h3>
+              <ul style="list-style: none; padding: 0; line-height: 1.8;">
+                <li><strong>Holberton School (2025 - Présent) :</strong> Spécialisation Machine Learning & Titre RNCP Niv. 5 (DWWM)</li>
+                <li><strong>BTS Microtechnique :</strong> Lycée Charles de Gaulle</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TASK 4: CONTACT ME -->
+      <section id="contact" class="section" style="border-top: 1px solid var(--line);">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Task 4 : Me Contacter (Contact Me)</h2>
+            <span class="section-note">Prise de contact</span>
+          </div>
+          <p style="margin-bottom: 2rem;">
+            N'hésitez pas à me contacter pour échanger sur des opportunités en Machine Learning, développement Python ou ingénierie logicielle.
+          </p>
+          <ul style="list-style: none; padding: 0; line-height: 2;">
+            <li><strong>📍 Localisation :</strong> Thonon-les-Bains, France</li>
+            <li><strong>📧 Email :</strong> <a href="mailto:mathieu.godalier@orange.fr">mathieu.godalier@orange.fr</a></li>
+            <li><strong>💼 LinkedIn :</strong> <a href="https://www.linkedin.com/in/mathieu-godalier-93031729a/" target="_blank">linkedin.com/in/mathieu-godalier</a></li>
+            <li><strong>💻 GitHub :</strong> <a href="https://github.com/Mathieu7483" target="_blank">github.com/Mathieu7483</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        © <span id="year">2026</span> Mathieu Godalier — Software & Machine Learning Engineer.
+        · <a href="#contact">Me contacter</a>
+      </p>
+    </footer>
+
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
