@@ -1,7 +1,7 @@
 
 # Portfolio & Online Resume — Mathieu Godalier
 
-Site web personnel et portfolio professionnel développé en HTML5, CSS3 moderne et JavaScript Vanilla. Hébergé sur GitHub Pages, ce projet présente mon parcours, mes compétences en ingénierie logicielle et Machine Learning, ainsi que mes réalisations.
+Site web personnel et portfolio professionnel développé en HTML5 et CSS3 moderne. Hébergé sur GitHub Pages, ce projet présente mon parcours, mes compétences en ingénierie logicielle et Machine Learning, ainsi que mes réalisations.
 
 ## Fonctionnalités Principales
 
