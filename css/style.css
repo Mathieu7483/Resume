@@ -235,7 +235,6 @@ a:hover {
 
 .hero {
   position: relative;
-  color: var(--ink);
   background: var(--paper-dim);
   border-bottom: 1px solid var(--line);
   padding: 4rem 0;
