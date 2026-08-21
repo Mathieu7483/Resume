@@ -11,7 +11,7 @@ Site web personnel et portfolio professionnel développé en HTML5, CSS3 moderne
 * Interface Responsive : Adaptée à toutes les tailles d'écran (Desktop, Tablette, Mobile) avec menu burger interactif.
 
 ## Arborescence du Projet
-
+```
 Directory structure:
 └── mathieu7483-resume/
     ├── README.md
@@ -21,6 +21,7 @@ Directory structure:
     ├── resume.html
     └── css/
         └── style.css
+```
 
 
 ## Stack Technique
