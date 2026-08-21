@@ -1,5 +1,5 @@
 <p align="center"\>
-<img src="https://github.com/Mathieu7483/Aiko78-Photgraphy/blob/main/img/page%20de%20garde%20interview%20Holberton.png"\>
+<img src="https://github.com/Mathieu7483/Resume/blob/main/Mathieu%20GODALIER.png"\>
 </p>
 
 # Portfolio & Online Resume — Mathieu Godalier
