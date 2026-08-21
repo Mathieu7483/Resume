@@ -28,7 +28,6 @@ Directory structure:
 
 * HTML5 (Structure sémantique, SEO)
 * CSS3 (Flexbox, Grid, CSS Custom Properties, clamp())
-* JavaScript Vanilla (Manipulation du DOM, événements)
 * Git & GitHub Pages (Versionnement et déploiement continu)
 
 ## Déploiement Local
