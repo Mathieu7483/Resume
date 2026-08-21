@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon CV — Mathieu Godalier</title>
+    <meta name="description" content="Parcours professionnel, compétences et formation de Mathieu Godalier." />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a href="index.html" class="nav-logo">Mathieu Godalier<span>.dev</span></a>
+        <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil / À propos</a></li>
+            <li><a href="projects.html">Projets</a></li>
+            <li><a href="resume.html" class="is-active">Mon CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Curriculum Vitae</h2>
+            <span class="section-note">Parcours & Compétences</span>
+          </div>
+
+          <div style="margin-bottom: 3rem; padding: 2rem; background: var(--bg-alt, #f5f5f5); border-radius: 4px;">
+            <h3>Télécharger la version complète</h3>
+            <p style="margin: 0.5rem 0 1.5rem 0;">Vous pouvez télécharger mon CV officiel au format PDF directement ici :</p>
+            <a href="Mathieu GODALIER - Software engineer 2026 - Linkedin.pdf" target="_blank" style="padding: 0.8rem 1.5rem; background: #000; color: #fff; text-decoration: none; border-radius: 4px; font-weight: 500; display: inline-block;">
+              📄 Télécharger le CV (PDF)
+            </a>
+          </div>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem;">
+            <div>
+              <h3 style="border-bottom: 2px solid var(--line); padding-bottom: 0.5rem;">Compétences Techniques</h3>
+              <ul style="list-style: none; padding: 0; line-height: 2;">
+                <li><strong>Langages :</strong> Python, C, JavaScript, SQL, Bash/Shell</li>
+                <li><strong>Architecture :</strong> Programmation Orientée Objet (POO), Pattern Façade, Clean Code</li>
+                <li><strong>Frameworks & Web :</strong> Flask, SQLAlchemy ORM, REST APIs, HTML5/CSS3</li>
+                <li><strong>Machine Learning & Data :</strong> spaCy/NLTK (NLU), Pandas, NumPy</li>
+                <li><strong>Environnement :</strong> Git, GitHub, Linux, SQLite</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 style="border-bottom: 2px solid var(--line); padding-bottom: 0.5rem;">Expérience & Formation</h3>
+              <div style="margin-top: 1rem;">
+                <h4>Holberton School (2025 - Présent)</h4>
+                <p style="color: var(--muted); font-size: 0.9rem;">Élève Ingénieur en Machine Learning & DWWM (RNCP Niv. 5)</p>
+                
+                <h4 style="margin-top: 1.5rem;">Securitas / Protectas (2010 - 2025)</h4>
+                <p style="color: var(--muted); font-size: 0.9rem;">Spécialiste de la Sécurité & Formateur Technique (Sièges internationaux OMS/RTS, Genève)</p>
+
+                <h4 style="margin-top: 1.5rem;">Gendarmerie Nationale (2005 - 2010)</h4>
+                <p style="color: var(--muted); font-size: 0.9rem;">Gendarme Adjoint Volontaire (PSIG / Unité Territoriale)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        © <span id="year">2026</span> Mathieu Godalier — Software & Machine Learning Engineer.
+        · <a href="contact.html">Me contacter</a>
+      </p>
+    </footer>
+
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
