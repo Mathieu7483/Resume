@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projets — Mathieu Godalier</title>
+    <meta name="description" content="Portfolio des projets de développement et Machine Learning de Mathieu Godalier." />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a href="index.html" class="nav-logo">Mathieu Godalier<span>.dev</span></a>
+        <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil / À propos</a></li>
+            <li><a href="projects.html" class="is-active">Projets</a></li>
+            <li><a href="resume.html">Mon CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Portfolio & Réalisations</h2>
+            <span class="section-note">Projets récents</span>
+          </div>
+
+          <div class="categories">
+            
+            <article class="category-card" style="padding: 2rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
+              <span class="category-label" style="position: static; margin-bottom: 1rem;">
+                <span class="num">01</span>
+                <span class="name">Dashboard Pharma</span>
+              </span>
+              <p style="margin-bottom: 1rem; line-height: 1.6;">
+                Application web Full-Stack pour la gestion d'officine avec agent conversationnel IA (NLU spaCy) pour l'analyse d'interactions médicamenteuses et l'optimisation des flux de stock.
+              </p>
+              <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--muted); margin-bottom: 1.5rem;">
+                Python · Flask · SQLAlchemy · JS Vanilla · spaCy / NLU · SQLite
+              </p>
+              <a href="https://github.com/mathieu7483/dashboard-pharma" target="_blank" style="font-weight:600; text-decoration: underline;">Consulter le dépôt GitHub →</a>
+            </article>
+
+            <article class="category-card" style="padding: 2rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
+              <span class="category-label" style="position: static; margin-bottom: 1rem;">
+                <span class="num">02</span>
+                <span class="name">Core Projects Holberton</span>
+              </span>
+              <p style="margin-bottom: 1rem; line-height: 1.6;">
+                Plus de 100 projets bas niveau et d'architecture logicielle : algorithmique avancée en C (listes chaînées doubles, gestion mémoire), scripts Shell automatisés et développement orienté objet en Python.
+              </p>
+              <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--muted); margin-bottom: 1.5rem;">
+                C · Python (POO) · Linux / Bash · REST APIs · Git
+              </p>
+              <a href="https://github.com/Mathieu7483" target="_blank" style="font-weight:600; text-decoration: underline;">Voir le profil GitHub →</a>
+            </article>
+
+            <article class="category-card" style="padding: 2rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
+              <span class="category-label" style="position: static; margin-bottom: 1rem;">
+                <span class="num">03</span>
+                <span class="name">Conception & Impression 3D</span>
+              </span>
+              <p style="margin-bottom: 1rem; line-height: 1.6;">
+                Modélisation CAO et fabrication additive de pièces techniques et sur-mesure sur imprimante Anycubic Vyper.
+              </p>
+              <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--muted);">
+                3D CAD · Slicing · Hardware
+              </p>
+            </article>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        © <span id="year">2026</span> Mathieu Godalier — Software & Machine Learning Engineer.
+        · <a href="contact.html">Me contacter</a>
+      </p>
+    </footer>
+
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
