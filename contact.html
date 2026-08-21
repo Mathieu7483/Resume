@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact — Mathieu Godalier</title>
+    <meta name="description" content="Prendre contact avec Mathieu Godalier, Développeur Software & Machine Learning." />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a href="index.html" class="nav-logo">Mathieu Godalier<span>.dev</span></a>
+        <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil / À propos</a></li>
+            <li><a href="projects.html">Projets</a></li>
+            <li><a href="resume.html">Mon CV</a></li>
+            <li><a href="contact.html" class="is-active">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Me Contacter</h2>
+            <span class="section-note">Prise de contact</span>
+          </div>
+
+          <p style="font-size: 1.1rem; margin-bottom: 2rem;">
+            N'hésitez pas à me contacter pour discuter de projets en Machine Learning, de opportunités de collaboration ou d'ingénierie logicielle.
+          </p>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+            <div style="padding: 2rem; background: var(--bg-alt, #f5f5f5); border-radius: 4px;">
+              <h3 style="margin-bottom: 1rem;">Coordonnées Directes</h3>
+              <ul style="list-style: none; padding: 0; line-height: 2.2;">
+                <li><strong>📍 Localisation :</strong> Thonon-les-Bains, France</li>
+                <li><strong>📧 Email :</strong> <a href="mailto:mathieu.godalier@orange.fr">mathieu.godalier@orange.fr</a></li>
+                <li><strong>💼 LinkedIn :</strong> <a href="https://www.linkedin.com/in/mathieu-godalier-93031729a/" target="_blank">linkedin.com/in/mathieu-godalier</a></li>
+                <li><strong>💻 GitHub :</strong> <a href="https://github.com/Mathieu7483" target="_blank">github.com/Mathieu7483</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        © <span id="year">2026</span> Mathieu Godalier — Software & Machine Learning Engineer.
+      </p>
+    </footer>
+
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
