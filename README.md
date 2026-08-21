@@ -12,17 +12,16 @@ Site web personnel et portfolio professionnel développé en HTML5, CSS3 moderne
 
 ## Arborescence du Projet
 
-portfolio/
-├── css/
-│   └── style.css            # Feuille de style globale et variables CSS
-├── js/
-│   └── main.js              # Interactions JS (menu mobile, animations)
-├── index.html               # Page d'accueil / À propos & Projets à la une
-├── projects.html            # Galerie détaillée des projets
-├── resume.html              # CV en ligne et lien de téléchargement PDF
-├── contact.html             # Coordonnées et liens professionnels
-├── favicon.svg              # Favicon vectoriel
-└── README.md                # Documentation
+Directory structure:
+└── mathieu7483-resume/
+    ├── README.md
+    ├── contact.html
+    ├── index.html
+    ├── projects.html
+    ├── resume.html
+    └── css/
+        └── style.css
+
 
 ## Stack Technique
 
