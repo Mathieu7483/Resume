@@ -36,7 +36,8 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-y: scroll;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
 }
 
 body {
@@ -78,11 +79,15 @@ a:hover {
 /* ---------- Header / Nav ---------- */
 
 .site-header {
-  position: sticky;
+  position: fixed; /* Fixe le header tout en haut de la fenêtre */
   top: 0;
-  z-index: 50;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
   background: rgba(250, 250, 248, 0.95);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
 }
 
@@ -93,6 +98,7 @@ a:hover {
   padding: 1.1rem var(--gutter);
   max-width: var(--max-width);
   margin: 0 auto;
+  width: 100%;
 }
 
 .nav-logo {
