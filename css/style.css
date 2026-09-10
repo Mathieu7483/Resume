@@ -429,3 +429,55 @@ a:hover {
   clip: rect(0 0 0 0);
   white-space: nowrap;
 }
+
+/* ---------- CV Call To Action ---------- */
+
+.cv-cta-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  background: var(--paper-dim);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 2rem;
+  margin-bottom: 3.5rem;
+}
+
+.cv-cta-content h3 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  margin: 0 0 0.4rem 0;
+  color: var(--ink);
+}
+
+.cv-cta-content p {
+  margin: 0;
+  color: var(--stone);
+  font-size: 0.95rem;
+}
+
+.cv-btn {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.cv-btn svg {
+  transition: transform 0.2s ease;
+}
+
+.cv-btn:hover svg {
+  transform: translateY(2px);
+}
+
+@media (max-width: 760px) {
+  .cv-cta-block {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+  
+  .cv-btn {
+    width: 100%;
+  }
+}
