@@ -18,11 +18,14 @@
     <header class="site-header">
       <nav class="nav">
         <a href="index.html" class="nav-logo">Mathieu Godalier</a>
-        <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+        
+        <input type="checkbox" id="burger-toggle" class="burger-toggle" aria-label="Ouvrir le menu" />
+        <label for="burger-toggle" class="burger">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
-        </button>
+        </label>
+
         <ul class="nav-links">
           <li><a href="index.html" class="is-active">Accueil / À propos</a></li>
           <li><a href="projects.html">Projets</a></li>
@@ -34,7 +37,7 @@
 
     <main>
       <section class="hero">
-        <div class="hero-media">
+        <div class="wrap">
           <div class="hero-caption">
             <span class="eyebrow">Thonon-les-Bains · Holberton School · Python & C</span>
             <h1>Développeur Full-Stack & Machine Learning</h1>
@@ -62,59 +65,59 @@
         </div>
       </section>
 
-      <section id="projects" class="section" style="border-top: 1px solid var(--line);">
+      <section id="projects" class="section section-bordered">
         <div class="wrap">
           <div class="section-head">
             <h2>Projets à la une</h2>
             <span class="section-note">Réalisations</span>
           </div>
+
           <div class="categories">
-            
-            <article class="category-card" style="padding: 1.5rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
-              <span class="category-label" style="position: static; margin-bottom: 1rem;">
+            <article class="category-card">
+              <span class="category-label">
                 <span class="num">01</span>
                 <span class="name">Dashboard Pharma</span>
               </span>
-              <p style="font-size: 0.9rem; margin-bottom: 1rem;">
+              <p class="card-text">
                 Application web Full-Stack pour la gestion d'officine avec agent conversationnel IA (NLU spaCy) pour l'analyse d'interactions médicamenteuses.
               </p>
-              <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--muted);">
+              <p class="card-tech">
                 Python · Flask · SQLAlchemy · JS Vanilla · NLU
               </p>
-              <a href="https://github.com/mathieu7483/dashboard-pharma" target="_blank" style="display:inline-block; margin-top:1rem; font-weight:600;">Voir le projet →</a>
+              <a href="https://github.com/mathieu7483/dashboard-pharma" target="_blank" class="card-link">Voir le projet →</a>
             </article>
 
-            <article class="category-card" style="padding: 1.5rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
-              <span class="category-label" style="position: static; margin-bottom: 1rem;">
+            <article class="category-card">
+              <span class="category-label">
                 <span class="num">02</span>
                 <span class="name">Core Projects Holberton</span>
               </span>
-              <p style="font-size: 0.9rem; margin-bottom: 1rem;">
+              <p class="card-text">
                 Plus de 100 projets bas niveau et d'architecture : algorithmique avancée en C (listes chaînées, pointeurs), scripts Shell et POO Python.
               </p>
-              <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--muted);">
+              <p class="card-tech">
                 C · Python (POO) · Linux/Bash · Git
               </p>
-              <a href="https://github.com/Mathieu7483" target="_blank" style="display:inline-block; margin-top:1rem; font-weight:600;">Voir le profil GitHub →</a>
+              <a href="https://github.com/Mathieu7483" target="_blank" class="card-link">Voir le profil GitHub →</a>
             </article>
 
-            <article class="category-card" style="padding: 1.5rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
-              <span class="category-label" style="position: static; margin-bottom: 1rem;">
+            <article class="category-card">
+              <span class="category-label">
                 <span class="num">03</span>
                 <span class="name">J.A.R.V.I.S. — Assistant Virtuel</span>
-               </span>
-                  <p style="font-size: 0.9rem; margin-bottom: 1rem;">
-                   Assistant IA conversationnel et d'automatisation capable de traiter des commandes vocales/textuelles, d'exécuter des tâches système et d'interagir avec des API externes.
-                  </p>
-                  <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--muted);">
-                  Python · POO · Speech Recognition · APIs · NLP
-                  </p>
-                <a href="https://github.com/Mathieu7483/JARVIS" target="_blank" style="display:inline-block; margin-top:1rem; font-weight:600;">Voir le projet →</a>
+              </span>
+              <p class="card-text">
+                Assistant IA conversationnel et d'automatisation capable de traiter des commandes vocales/textuelles, d'exécuter des tâches système et d'interagir avec des API externes.
+              </p>
+              <p class="card-tech">
+                Python · POO · Speech Recognition · APIs · NLP
+              </p>
+              <a href="https://github.com/Mathieu7483/JARVIS" target="_blank" class="card-link">Voir le projet →</a>
             </article>
-
           </div>
-          <div style="margin-top: 2rem; text-align: center;">
-            <a href="projects.html" class="btn" style="font-weight: 600;">Découvrir tous les projets →</a>
+
+          <div class="center-btn-wrap">
+            <a href="projects.html" class="btn">Découvrir tous les projets →</a>
           </div>
         </div>
       </section>
@@ -127,7 +130,8 @@
       </p>
     </footer>
 
-    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
-    <script src="js/main.js"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
