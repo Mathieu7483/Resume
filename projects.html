@@ -31,38 +31,78 @@
   </head>
   <body>
     <header class="site-header">
-          <nav class="nav">
-            <a href="index.html" class="nav-logo">Mathieu Godalier</a>
+      <nav class="nav">
+        <a href="index.html" class="nav-logo">Mathieu Godalier</a>
 
-            <input type="checkbox" id="burger-toggle" class="burger-toggle" aria-label="Ouvrir le menu" />
-            <label for="burger-toggle" class="burger">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </label>
+        <input type="checkbox" id="burger-toggle" class="burger-toggle" aria-label="Ouvrir le menu" />
+        <label for="burger-toggle" class="burger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </label>
 
-            <ul class="nav-links">
-              <li><a href="index.html">Accueil / À propos</a></li>
-              <li><a href="projects.html" class="is-active">Projets</a></li>
-              <li><a href="resume.html">Mon CV</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </nav>
-        </header>
+        <ul class="nav-links">
+          <li><a href="index.html">Accueil / À propos</a></li>
+          <li><a href="projects.html" class="is-active">Projets</a></li>
+          <li><a href="resume.html">Mon CV</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <main>
+      <!-- CATEGORIE 1 : MACHINE LEARNING & IA -->
       <section class="section">
         <div class="wrap">
           <div class="section-head">
-            <h2>Portfolio & Réalisations</h2>
-            <span class="section-note">Projets récents</span>
+            <h2>Machine Learning & Intelligence Artificielle</h2>
+            <span class="section-note">Modélisation & Data Science</span>
           </div>
 
           <div class="categories">
-            <!-- Projet 01 : Dashboard Pharma -->
             <article class="category-card" style="padding: 2rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
               <span class="category-label" style="position: static; margin-bottom: 1rem;">
                 <span class="num">01</span>
+                <span class="name">Rugby Predictor WC2027</span>
+              </span>
+              <p style="margin-bottom: 1rem; line-height: 1.6;">
+                Modèle prédictif de Machine Learning conçu pour analyser et anticiper les performances et résultats des équipes en vue de la Coupe du Monde de Rugby 2027.
+              </p>
+              <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--muted); margin-bottom: 1.5rem;">
+                Python · Machine Learning · Pandas · Scikit-Learn
+              </p>
+              <a href="https://github.com/Mathieu7483/Rugby-Predictor-WC2027" target="_blank" style="font-weight:600; text-decoration: underline;">Consulter le dépôt GitHub →</a>
+            </article>
+
+            <article class="category-card" style="padding: 2rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
+              <span class="category-label" style="position: static; margin-bottom: 1rem;">
+                <span class="num">02</span>
+                <span class="name">Holberton — Machine Learning</span>
+              </span>
+              <p style="margin-bottom: 1rem; line-height: 1.6;">
+                Ensemble de travaux pratiques et de projets académiques avancés en IA et apprentissage automatique réalisés dans le cadre du cursus Holberton School.
+              </p>
+              <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--muted); margin-bottom: 1.5rem;">
+                Python · NumPy · Scikit-Learn · Algorithmes supervisés / non supervisés
+              </p>
+              <a href="https://github.com/Mathieu7483/holbertonschool-machine_learning" target="_blank" style="font-weight:600; text-decoration: underline;">Consulter le dépôt GitHub →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CATEGORIE 2 : DÉVELOPPEMENT WEB & APPLICATIONS -->
+      <section class="section" style="border-top: 1px solid var(--line);">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Développement Web & Applications</h2>
+            <span class="section-note">Full-Stack & Interfaces</span>
+          </div>
+
+          <div class="categories">
+            <article class="category-card" style="padding: 2rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
+              <span class="category-label" style="position: static; margin-bottom: 1rem;">
+                <span class="num">03</span>
                 <span class="name">Dashboard Pharma</span>
               </span>
               <p style="margin-bottom: 1rem; line-height: 1.6;">
@@ -74,115 +114,37 @@
               <a href="https://github.com/mathieu7483/dashboard-pharma" target="_blank" style="font-weight:600; text-decoration: underline;">Consulter le dépôt GitHub →</a>
             </article>
 
-            <!-- Projet 02: Fondamentaux Holberton -->
-            <article class="category-card" style="padding: 2rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
-              <span class="category-label" style="position: static; margin-bottom: 1rem;">
-                <span class="num">02</span>
-                <span class="name">Core Projects Holberton</span>
-              </span>
-              <p style="margin-bottom: 1rem; line-height: 1.6;">
-                Plus de 100 projets bas niveau et d'architecture logicielle : algorithmique avancée en C (listes chaînées doubles, gestion mémoire), scripts Shell automatisés et développement orienté objet en Python.
-              </p>
-              <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--muted); margin-bottom: 1.5rem;">
-                C · Python (POO) · Linux / Bash · REST APIs · Git
-              </p>
-              <a href="https://github.com/Mathieu7483" target="_blank" style="font-weight:600; text-decoration: underline;">Voir le profil GitHub →</a>
-            </article>
-
-            <!-- Projet 03: Assistant personnel JARVIS -->
-            <article class="category-card" style="padding: 1.5rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
-              <span class="category-label" style="position: static; margin-bottom: 1rem;">
-                <span class="num">03</span>
-                <span class="name">J.A.R.V.I.S. — Assistant Virtuel</span>
-               </span>
-                  <p style="font-size: 0.9rem; margin-bottom: 1rem;">
-                   Assistant IA conversationnel et d'automatisation capable de traiter des commandes vocales/textuelles, d'exécuter des tâches système et d'interagir avec des API externes.
-                  </p>
-                  <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--muted);">
-                  Python · POO · Speech Recognition · APIs · NLP
-                  </p>
-                <a href="https://github.com/Mathieu7483/JARVIS" target="_blank" style="display:inline-block; margin-top:1rem; font-weight:600;">Voir le projet →</a>
-            </article>
-
-            <!-- Projet 04 : Rugby Predictor WC2027 -->
             <article class="category-card" style="padding: 2rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
               <span class="category-label" style="position: static; margin-bottom: 1rem;">
                 <span class="num">04</span>
-                <span class="name">Rugby Predictor WC2027</span>
-              </span>
-              <p style="margin-bottom: 1rem; line-height: 1.6;">
-                Modèle prédictif de Machine Learning conçu pour analyser et anticiper les performances et résultats des équipes en vue de la Coupe du Monde de Rugby 2027.
-              </p>
-              <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--muted); margin-bottom: 1.5rem;">
-                Python · Machine Learning · Data Science · Pandas · Scikit-Learn
-              </p>
-              <a href="https://github.com/Mathieu7483/Rugby-Predictor-WC2027" target="_blank" style="font-weight:600; text-decoration: underline;">Consulter le dépôt GitHub →</a>
-            </article>
-
-            <!-- Projet 05 : Holberton Machine Learning -->
-            <article class="category-card" style="padding: 2rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
-              <span class="category-label" style="position: static; margin-bottom: 1rem;">
-                <span class="num">05</span>
-                <span class="name">Holberton — Machine Learning</span>
-              </span>
-              <p style="margin-bottom: 1rem; line-height: 1.6;">
-                Ensemble de travaux pratiques et de projets académiques avancés en IA et Machine Learning réalisés dans le cadre du cursus de la Holberton School.
-              </p>
-              <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--muted); margin-bottom: 1.5rem;">
-                Python · NumPy · Scikit-Learn · Deep Learning · Algorithmes supervisés/non supervisés
-              </p>
-              <a href="https://github.com/Mathieu7483/holbertonschool-machine_learning" target="_blank" style="font-weight:600; text-decoration: underline;">Consulter le dépôt GitHub →</a>
-            </article>
-
-            <!-- Projet 06 : Ma-DVDthèque -->
-            <article class="category-card" style="padding: 2rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
-              <span class="category-label" style="position: static; margin-bottom: 1rem;">
-                <span class="num">06</span>
                 <span class="name">Ma-DVDthèque</span>
               </span>
               <p style="margin-bottom: 1rem; line-height: 1.6;">
                 Application web de gestion et d'organisation de collection de films et DVD personnelle, axée sur l'ergonomie et la structuration des données.
               </p>
               <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--muted); margin-bottom: 1.5rem;">
-                Python · Flask / Web · Base de données · HTML / CSS
+                Python · Flask · Base de données · HTML / CSS
               </p>
               <a href="https://github.com/Mathieu7483/Ma-DVDth-que" target="_blank" style="font-weight:600; text-decoration: underline;">Consulter le dépôt GitHub →</a>
             </article>
 
-            <!-- Projet 07 : SimBike -->
-            <article class="category-card" style="padding: 2rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
+            <article class="category-card" style="padding: 1.5rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
               <span class="category-label" style="position: static; margin-bottom: 1rem;">
-                <span class="num">07</span>
-                <span class="name">SimBike</span>
+                <span class="num">05</span>
+                <span class="name">J.A.R.V.I.S. — Assistant Virtuel</span>
               </span>
-              <p style="margin-bottom: 1rem; line-height: 1.6;">
-                Application de simulation interactive orientée cyclisme, combinant logique algorithmique et interface dynamique pour le suivi ou la simulation de parcours.
+              <p style="font-size: 0.9rem; margin-bottom: 1rem;">
+                Assistant IA conversationnel et d'automatisation capable de traiter des commandes vocales/textuelles, d'exécuter des tâches système et d'interagir avec des API externes.
               </p>
-              <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--muted); margin-bottom: 1.5rem;">
-                Python / Logic · Simulation · Programmation Orientée Objet
+              <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--muted); margin-bottom: 1.5rem;">
+                Python · POO · Speech Recognition · APIs · NLP
               </p>
-              <a href="https://github.com/Mathieu7483/SimBike" target="_blank" style="font-weight:600; text-decoration: underline;">Consulter le dépôt GitHub →</a>
+              <a href="https://github.com/Mathieu7483/JARVIS" target="_blank" style="font-weight:600; text-decoration: underline;">Voir le projet →</a>
             </article>
 
-            <!-- Projet 08 : Jeu de dames -->
             <article class="category-card" style="padding: 2rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
               <span class="category-label" style="position: static; margin-bottom: 1rem;">
-                <span class="num">08</span>
-                <span class="name">Jeu de dames</span>
-              </span>
-              <p style="margin-bottom: 1rem; line-height: 1.6;">
-                Implémentation logicielle complète du jeu de plateau classique des Dames, mettant en œuvre des structures de données robustes et la gestion des règles de déplacement.
-              </p>
-              <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--muted); margin-bottom: 1.5rem;">
-                Algorithmique · Logique de jeu · Programmation structurée
-              </p>
-              <a href="https://github.com/Mathieu7483/Jeu-de-dames" target="_blank" style="font-weight:600; text-decoration: underline;">Consulter le dépôt GitHub →</a>
-            </article>
-
-            <!-- Projet 09 : Clock Modern Way -->
-            <article class="category-card" style="padding: 2rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
-              <span class="category-label" style="position: static; margin-bottom: 1rem;">
-                <span class="num">09</span>
+                <span class="num">06</span>
                 <span class="name">Clock Modern Way</span>
               </span>
               <p style="margin-bottom: 1rem; line-height: 1.6;">
@@ -193,7 +155,60 @@
               </p>
               <a href="https://github.com/Mathieu7483/Clock-Modern-Way" target="_blank" style="font-weight:600; text-decoration: underline;">Consulter le dépôt GitHub →</a>
             </article>
+          </div>
+        </div>
+      </section>
 
+      <!-- CATEGORIE 3 : ALGORITHMIQUE, SYSTÈMES & BAS NIVEAU -->
+      <section class="section" style="border-top: 1px solid var(--line);">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Algorithmique, Systèmes & Bas Niveau</h2>
+            <span class="section-note">C, Shell & Logique</span>
+          </div>
+
+          <div class="categories">
+            <article class="category-card" style="padding: 2rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
+              <span class="category-label" style="position: static; margin-bottom: 1rem;">
+                <span class="num">07</span>
+                <span class="name">Core Projects Holberton</span>
+              </span>
+              <p style="margin-bottom: 1rem; line-height: 1.6;">
+                Plus de 100 projets bas niveau et d'architecture logicielle : algorithmique avancée en C (listes chaînées doubles, gestion mémoire), scripts Shell automatisés et POO en Python.
+              </p>
+              <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--muted); margin-bottom: 1.5rem;">
+                C · Python (POO) · Linux / Bash · REST APIs · Git
+              </p>
+              <a href="https://github.com/Mathieu7483" target="_blank" style="font-weight:600; text-decoration: underline;">Voir le profil GitHub →</a>
+            </article>
+
+            <article class="category-card" style="padding: 2rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
+              <span class="category-label" style="position: static; margin-bottom: 1rem;">
+                <span class="num">08</span>
+                <span class="name">SimBike</span>
+              </span>
+              <p style="margin-bottom: 1rem; line-height: 1.6;">
+                Application de simulation interactive orientée cyclisme, combinant logique algorithmique et interface dynamique pour le suivi ou la simulation de parcours.
+              </p>
+              <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--muted); margin-bottom: 1.5rem;">
+                Python · Logique de simulation · Programmation Orientée Objet
+              </p>
+              <a href="https://github.com/Mathieu7483/SimBike" target="_blank" style="font-weight:600; text-decoration: underline;">Consulter le dépôt GitHub →</a>
+            </article>
+
+            <article class="category-card" style="padding: 2rem; background: var(--bg-card, #fff); border: 1px solid var(--line);">
+              <span class="category-label" style="position: static; margin-bottom: 1rem;">
+                <span class="num">09</span>
+                <span class="name">Jeu de dames</span>
+              </span>
+              <p style="margin-bottom: 1rem; line-height: 1.6;">
+                Implémentation logicielle complète du jeu de plateau classique des Dames, mettant en œuvre des structures de données robustes et la gestion des règles de déplacement.
+              </p>
+              <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--muted); margin-bottom: 1.5rem;">
+                Algorithmique · Logique de jeu · Programmation structurée
+              </p>
+              <a href="https://github.com/Mathieu7483/Jeu-de-dames" target="_blank" style="font-weight:600; text-decoration: underline;">Consulter le dépôt GitHub →</a>
+            </article>
           </div>
         </div>
       </section>
@@ -203,10 +218,3 @@
       <p>
         © <span id="year">2026</span> Mathieu Godalier — Software & Machine Learning Engineer.
         · <a href="contact.html">Me contacter</a>
-      </p>
-    </footer>
-
-    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
-    <script src="js/main.js"></script>
-  </body>
-</html>
